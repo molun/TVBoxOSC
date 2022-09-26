@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://刚刚.live/猫");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://freed.yuanhsing.cf/TVBox/meowcf.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
